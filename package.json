@@ -1,0 +1,24 @@
+{
+  "name": "react-pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "file-saver": "^2.0.5",
+    "html-pdf": "^3.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
